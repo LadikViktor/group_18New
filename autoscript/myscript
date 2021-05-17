@@ -1,0 +1,9 @@
+#!/bin/bash
+cd /e/My_IT/New_cours_VK/Linux_terminal/autoscript
+mkdir -p {folder1,folder2,folder3}
+cd folder1
+touch file1.txt file2.txt file3.txt proba1.json proba2.json
+mkdir -p {sw1,sw2,sw3}
+ls -l
+mv file1.txt file2.txt /e/My_IT/New_cours_VK/Linux_terminal/autoscript/folder2
+
